@@ -1,0 +1,98 @@
+stackbitVersion: ~0.3.0
+dataDir: bot/bot/resource
+models:
+  conf:
+    type: data
+    label: Conf
+    file: conf.json
+    fields:
+      - type: string
+        name: dono
+        label: Dono
+      - type: string
+        name: manutencao
+        label: Manutencao
+      - type: string
+        name: userDono
+        label: User Dono
+      - type: string
+        name: versao
+        label: Versao
+      - type: string
+        name: updateDAte
+        label: Update D Ate
+      - type: object
+        name: price
+        label: Price
+        fields:
+          - type: number
+            name: Gold
+            label: Gold
+            subtype: int
+          - type: number
+            name: Default
+            label: Default
+            subtype: int
+          - type: number
+            name: standard
+            label: Standard
+            subtype: int
+          - type: number
+            name: default
+            label: Default
+            subtype: int
+          - type: number
+            name: gold
+            label: Gold
+            subtype: int
+          - type: number
+            name: platinum
+            label: Platinum
+            subtype: int
+          - type: number
+            name: elo
+            label: Elo
+            subtype: int
+          - type: number
+            name: bussines
+            label: Bussines
+            subtype: int
+          - type: number
+            name: classic
+            label: Classic
+            subtype: int
+          - type: number
+            name: corporated
+            label: Corporated
+            subtype: int
+          - type: number
+            name: black
+            label: Black
+            subtype: int
+          - type: number
+            name: infiniti
+            label: Infiniti
+            subtype: int
+          - type: number
+            name: hypercard
+            label: Hypercard
+            subtype: int
+      - type: object
+        name: pricemix
+        label: Pricemix
+        fields:
+          - type: number
+            name: '2'
+            label: '2'
+            subtype: int
+          - type: number
+            name: '3'
+            label: '3'
+            subtype: int
+          - type: number
+            name: default
+            label: Default
+            subtype: int
+      - type: text
+        name: welcome
+        label: Welcome

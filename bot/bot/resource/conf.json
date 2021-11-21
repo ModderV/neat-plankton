@@ -1,0 +1,28 @@
+{
+    "dono": "938513719",
+    "manutencao": "false",
+    "userDono": "VRP_Modder",
+    "versao": "1.0",
+    "updateDAte": "16/11/2021 as 12:00",
+    "price": {
+        "Gold": 30,
+        "Default": 30,
+        "standard": 16,
+        "default": 15,
+        "gold": 20,
+        "platinum": 25,
+        "elo": 30,
+        "bussines": 40,
+        "classic": 14,
+        "corporated": 40,
+        "black": 50,
+        "infiniti": 80,
+        "hypercard": 30
+    },
+    "pricemix": {
+        "2": 10,
+        "default": 15,
+        "3": 50
+    },
+    "welcome": "Olá {nome}, Seja bem vindo!\n\n[❓ Dúvidas](t.me/vrp_modder)\n[👥 Grupo](futuro link)\n[📢 Canal](canal link)\n[⚙️ Dev](t.me/vrp_modder"
+}
